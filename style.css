@@ -1,0 +1,137 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin:0;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Home */
+
+#title{
+    text-align: center;
+    position: relative;
+    font-size: 70px;
+    top: 30px;
+    text-shadow: 1px 3px 3px rgb(255, 255, 255);
+}
+
+#link1, #link2{
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 30px;
+    font-size: 50px;
+    margin-top: 90px;
+    line-height: 15vh;
+    text-shadow: 1px 3px 3px rgb(105, 105, 105);
+    border:2px solid white;
+}
+
+#link1:hover, #link2:hover{
+    color: rgb(216, 215, 215);
+    box-shadow: 2px 4px 5px rgb(0, 0, 0);
+}
+
+#link2{
+    margin-top: 200px;
+}
+
+/* Jogo em dupla e sozinho */
+
+#headimg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    border: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+
+#arrow{
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+#placar, #jogador1, #jogador2, #placarX, #placarO{
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    left: 41%;
+    transform: translate(-50%);
+    top: 30px;
+}
+
+.continer-jogo{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    margin-left: -227px;
+}
+
+#um, #dois, #tres, #quatro, #cinco, #seis, #sete, #oito, #nove{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.144);
+    top: 50px;
+    font-size: 100px;
+}
+
+#um{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#dois{
+    margin-left: 152px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#tres{
+    margin-left: 304px;
+    border-bottom: 2px solid black;
+}
+
+#quatro{
+    margin-top: 152px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#cinco{
+    margin-top: 152px;
+    margin-left: 152px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#seis{
+    margin-top: 152px;
+    margin-left: 304px;
+    border-bottom: 2px solid black;
+}
+
+#sete{
+    margin-top: 304px;
+    border-right: 2px solid black;
+}
+
+#oito{
+    margin-top: 304px;
+    margin-left: 152px;
+    border-right: 2px solid black;
+}
+
+#nove{
+    margin-top: 304px;
+    margin-left: 304px;
+}
